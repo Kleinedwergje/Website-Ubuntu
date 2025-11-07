@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>HTML pagina Linux commands</h1>
+    <section>
+        <h2>Mappen en bestanden</h2>
+        <ul>
+            <li>Huidige map tonen: <code>pwd</code></li>
+            <li>Inhoud van map bekijken: <code>ls</code></li>
+            <li>Inhoud met details: <code>ls -l</code></li>
+            <li>Inhoud inclusief verborgen bestanden: <code>ls -a</code></li>
+            <li>Naar map navigeren: <code>cd &lt;mapnaam&gt;</code></li>
+            <li>Één map omhoog: <code>cd ..</code></li>
+            <li>Home directory: <code>cd ~</code></li>
+            <li>Map maken: <code>mkdir &lt;mapnaam&gt;</code></li>
+            <li>Bestand maken / openen: <code>nano &lt;bestandsnaam&gt;</code></li>
+            <li>Bestand kopiëren: <code>cp &lt;bron&gt; &lt;doel&gt;</code></li>
+            <li>Bestand verplaatsen/naam wijzigen: <code>mv &lt;bron&gt; &lt;doel&gt;</code></li>
+            <li>Bestand verwijderen: <code>rm &lt;bestandsnaam&gt;</code></li>
+        </ul>
+    </section>
+
+     <section>
+        <h2>Bestanden bekijken</h2>
+        <ul>
+            <li>Alles in één keer bekijken: <code>cat &lt;bestandsnaam&gt;</code></li>
+            <li>Begin van bestand bekijken: <code>head -n 10 &lt;bestandsnaam&gt;</code></li>
+            <li>Einde van bestand bekijken: <code>tail -n 10 &lt;bestandsnaam&gt;</code></li>
+            <li>Scrollbaar bekijken: <code>less &lt;bestandsnaam&gt;</code></li>
+            <li>Zoek in bestand: <code>grep &lt;zoekterm&gt; &lt;bestandsnaam&gt;</code></li>
+            <li>Live volgen van log: <code>tail -f &lt;bestand&gt;</code></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Netwerk</h2>
+        <ul>
+            <li>Huidig IP-adres bekijken: <code>ip a</code></li>
+            <li>Ping netwerkhost: <code>ping &lt;ip of host&gt;</code></li>
+            <li>Netplan configuratie map: <code>cd /etc/netplan</code></li>
+            <li>Netplan bestand openen: <code>sudo nano 50-cloud-init.yaml</code></li>
+            <li>Wijzigingen toepassen: <code>sudo netplan apply</code></li>
+            <li>IP configuratie testen: <code>ip a</code></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Logs</h2>
+        <ul>
+            <li>Logbestand scrollbaar bekijken: <code>sudo less /var/log/syslog</code></li>
+            <li>Laatste 10 regels: <code>sudo tail -n 10 /var/log/syslog</code></li>
+            <li>Eerste 10 regels: <code>sudo head -n 10 /var/log/syslog</code></li>
+            <li>Hele log in één keer: <code>sudo cat /var/log/syslog</code></li>
+            <li>Specifieke fouten zoeken: <code>sudo grep error /var/log/syslog</code></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>GitHub</h2>
+        <ul>
+            <li>Repository klonen: <code>git clone &lt;url&gt;</code></li>
+            <li>Status bekijken: <code>git status</code></li>
+            <li>Wijzigingen toevoegen: <code>git add &lt;bestandsnaam&gt;</code></li>
+            <li>Commit maken: <code>git commit -m "bericht"</code></li>
+            <li>Pushen naar GitHub: <code>git push</code></li>
+            <li>Branch maken: <code>git branch &lt;naam&gt;</code></li>
+            <li>Branch wisselen: <code>git checkout &lt;naam&gt;</code></li>
+        </ul>
+    </section>
+
+</body>
+        <p></p>
+    </section>
+    <h2></h2>
+    <p></p>
+    <h4></h4>
+    <p></p>
+
+</body>
+
+</html>
